@@ -14,7 +14,7 @@ services:
   type: php-apache@8.0
   mode: NON_HA
   documentRoot: public
-  buildFromGit: https://github.com/zeropsio/recipe-adminer
+  buildFromGit: https://github.com/zeropsio/recipe-adminer@main
   enableSubdomainAccess: true
 ```
 
