@@ -1,4 +1,4 @@
-use: [ php-apache@8.0 ]
+use: [ php@8.0 ]
 run:
   - echo "There is nothing to build. It's possible only to directly deploy the code."
 deploy: [ "." ]
