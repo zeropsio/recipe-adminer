@@ -15,7 +15,6 @@ services:
   mode: NON_HA
   documentRoot: public
   buildFromGit: https://github.com/zeropsio/recipe-adminer@main
-  enableSubdomainAccess: true
 ```
 
 See the [Zerops documentation](https://docs.zerops.io/documentation/export-import/project-service-export-import.html) to understand how to use it.
