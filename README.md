@@ -19,7 +19,7 @@ services:
   mode: NON_HA
   # Folder name used as the root of the publicly accessible web server content.
   documentRoot: public
-  # Repository that contains Adminer code with build and deploy instructions.
+  # Repository that contains Adminer code with deploy instructions.
   buildFromGit: https://github.com/zeropsio/recipe-adminer@main
 ```
 
