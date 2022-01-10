@@ -3,7 +3,7 @@ adminer:
   build:
     # What tasks should be run to build the application.
     build:
-      - echo "There is nothing to build. It's possible only to directly deploy the code."
+      - echo "There is nothing to build. Only deploy the code."
     # What files and directories should be copied from a build container into a runtime container.
     deploy: ['./public']
   run:
