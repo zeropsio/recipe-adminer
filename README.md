@@ -10,7 +10,7 @@ The concept of pre-prepared skeletons demonstrates the way how to set up and use
 
 ```yaml
 services:
-  # Service will be accessible through zcli VPN under: http://adminer
+# Service will be accessible through zcli VPN under: http://adminer
 - hostname: adminer
   # Type and version of a used service.
   type: php-apache@8.0
@@ -18,8 +18,8 @@ services:
   # Since this is a utility service, using only one container is fine.
   mode: NON_HA
   # Folder name used as the root of the publicly accessible web server content.
-  documentRoot: public
-  # Repository that contains adminer code with build and deploy instructions.
+  # documentRoot: public
+  # Repository that contains Adminer code with deploy instructions.
   buildFromGit: https://github.com/zeropsio/recipe-adminer@main
 ```
 

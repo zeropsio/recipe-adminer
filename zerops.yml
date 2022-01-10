@@ -1,4 +1,11 @@
-use: [ php@8.0]
-run:
-  - echo "There is nothing to build. It's possible only to directly deploy the code."
-deploy: [ ./public ]
+# Service hostname.
+adminer:
+  build:
+    # What tasks should be run to build the application.
+    build:
+      - echo "There is nothing to build. It's possible only to directly deploy the code."
+    # What files and directories should be copied from a build container into a runtime container.
+    deploy: ['./public']
+  run:
+    # Folder name used as the root of the publicly accessible web server content.
+    documentRoot: public
