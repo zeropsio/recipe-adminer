@@ -10,7 +10,7 @@ The concept of pre-prepared skeletons demonstrates the way how to set up and use
 
 ```yaml
 services:
-  # Service will be accessible through zcli VPN under: http://adminer
+# Service will be accessible through zcli VPN under: http://adminer
 - hostname: adminer
   # Type and version of a used service.
   type: php-apache@8.0
