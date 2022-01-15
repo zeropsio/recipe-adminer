@@ -1,4 +1,4 @@
-# Service hostname.
+# Service hostname to which the application will be deployed.
 adminer:
   build:
     # What tasks should be run to build the application.
