@@ -1,11 +1,8 @@
-# Service hostname to which the application will be deployed.
-adminer:
-  build:
-    # What tasks should be run to build the application.
+zerops:
+  - setup: adminer
     build:
-      - echo "There is nothing to build. Only deploy the code."
-    # What files and directories should be copied from a build container into a runtime container.
-    deploy: ['./public']
-  run:
-    # Folder name used as the root of the publicly accessible web server content.
-    documentRoot: public
+      buildCommands:
+        - echo "There is nothing to build. Only deploy the code."
+      deploy: ['./public']
+    run:
+      documentRoot: public
