@@ -1,9 +1,12 @@
 zerops:
   - setup: adminer
     build:
-      base: php@8.0
+      os: alpine
+      base: php@latest
       buildCommands:
         - echo "There is nothing to build. Only deploy the code."
       deploy: ['./public']
     run:
+      os: alpine
+      base: php-nginx@latest
       documentRoot: public
