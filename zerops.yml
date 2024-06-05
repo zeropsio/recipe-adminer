@@ -5,7 +5,7 @@ zerops:
       base: php@latest
       buildCommands:
         - echo "There is nothing to build. Only deploy the code."
-      deploy: ['./public']
+      deployFiles: ['./public']
     run:
       os: alpine
       base: php-apache@8.3
