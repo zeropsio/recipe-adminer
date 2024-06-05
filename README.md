@@ -10,16 +10,9 @@ The concept of pre-prepared skeletons demonstrates the way how to set up and use
 
 ```yaml
 services:
-# Service will be accessible through zcli VPN under: http://adminer
-- hostname: adminer
-  # Type and version of a used service.
-  type: php-apache@8.0+2.4
-  # Whether the service will be run on one or multiple containers.
-  # Since this is a utility service, using only one container is fine.
-  minContainers: 1
-  maxContainers: 1
-  # Repository that contains Adminer code with deploy instructions.
-  buildFromGit: https://github.com/zeropsio/recipe-adminer@main
+  - hostname: adminer
+    type: php-apache@8.0+2.4
+    buildFromGit: https://github.com/zeropsio/recipe-adminer@main
 ```
 
 See the [Zerops documentation](https://docs.zerops.io/documentation/export-import/project-service-export-import.html) to understand how to use it.
