@@ -11,8 +11,8 @@ The concept of pre-prepared skeletons demonstrates the way how to set up and use
 ```yaml
 services:
   - hostname: adminer
-    type: php-apache@8.0+2.4
-    buildFromGit: https://github.com/zeropsio/recipe-adminer@main
+    type: php-apache@8.3
+    buildFromGit: https://github.com/zeropsio/recipe-adminer
 ```
 
 See the [Zerops documentation](https://docs.zerops.io/documentation/export-import/project-service-export-import.html) to understand how to use it.
