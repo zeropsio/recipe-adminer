@@ -12,6 +12,7 @@ You can add latest version Adminer to your project by clicking the "Import Servi
 services:
   - hostname: adminer
     type: php-apache@8.3
+    enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-adminer
 ```
 See the [Zerops documentation](https://docs.zerops.io/references/import) and [zerops.yaml](https://github.com/zeropsio/recipe-adminer/blob/main/zerops.yml) to understand how to use it.
