@@ -3,7 +3,7 @@ The concept of a utility tool illustrates how to set up and use the technologies
 
 <br />
 
-![adminer](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/cover-adminer.png)
+![adminer](https://github.com/zeropsio/recipe-shared-assets/blob/main/covers/svg/cover-adminer.svg)
 
 ## Deploy on Zerops
 You can add the latest version of Adminer to your project by clicking the ```Import Services``` button in the project details and then copying the provided code.
