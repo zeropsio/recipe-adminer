@@ -2,9 +2,10 @@ zerops:
   - setup: adminer
     build:
       base: php@8.3
+      prepareCommands:
+        - sudo apk add wget
       buildCommands:
         - |
-          apk add wget
           wget https://www.adminer.org/latest.php
           mv latest.php index.php
       deployFiles: index.php
