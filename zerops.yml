@@ -6,8 +6,8 @@ zerops:
         - sudo apk add wget
       buildCommands:
         - |
-          wget https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php
-          mv adminer-4.8.1.php index.php
+          wget https://github.com/vrana/adminer/releases/download/v5.2.1/adminer-5.2.1.php
+          mv adminer-5.2.1.php index.php
       deployFiles: index.php
     run:
       base: php-apache@8.3
