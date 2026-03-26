@@ -13,7 +13,7 @@ Click **Import Services** in the project details and paste:
 ```yaml
 services:
   - hostname: adminer
-    type: php-apache@8.4
+    type: php-apache@8.5
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-adminer
 ```
@@ -26,7 +26,7 @@ See the [Zerops documentation](https://docs.zerops.io/references/import) and [`z
 
 ## About Adminer
 
-[Adminer](https://www.adminer.org/) (v5.4.2) is a full-featured database management tool written in PHP. It consists of a single file ready to deploy to the target server. Adminer supports MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin.
+[Adminer](https://www.adminer.org/) is a full-featured database management tool written in PHP. It consists of a single file ready to deploy to the target server. Adminer supports MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB and others via plugin. The latest version is always downloaded at build time.
 
 ## Production vs. Development
 

@@ -2,7 +2,9 @@ zerops:
   - setup: adminer
     build:
       base: php@8.4
+      buildCommands:
+        - php -r "copy('https://www.adminer.org/latest.php', 'index.php');"
       deployFiles: index.php
     run:
-      base: php-apache@8.4
+      base: php-apache@8.5
       documentRoot: ""

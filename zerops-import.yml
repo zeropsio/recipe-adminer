@@ -1,5 +1,5 @@
 services:
   - hostname: adminer
-    type: php-apache@8.4
+    type: php-apache@8.5
     enableSubdomainAccess: true
     buildFromGit: https://github.com/zeropsio/recipe-adminer
