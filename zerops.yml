@@ -1,16 +1,8 @@
 zerops:
   - setup: adminer
     build:
-      base: php@8.3
-      prepareCommands:
-        - sudo apk add wget
-      buildCommands:
-        - |
-          wget https://github.com/vrana/adminer/releases/download/v5.2.1/adminer-5.2.1.php
-          mv adminer-5.2.1.php index.php
-      deployFiles: index.php
+      base: php@8.4
+      deployFiles: [.]
     run:
-      base: php-apache@8.3
-      ports:
-        - port: 80
-          httpSupport: true
+      base: php-apache@8.4
+      documentRoot: ""
