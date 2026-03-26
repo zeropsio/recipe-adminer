@@ -31,7 +31,7 @@ See the [Zerops documentation](https://docs.zerops.io/references/import) and [`z
 ## Production vs. Development
 
 - For production environments, it is not advisable to make Adminer publicly accessible. Consider either disabling **Public Access through the Zerops.io subdomain** after deployment in GUI or directly setting `enableSubdomainAccess` to `false` in the import file.
-- To access Adminer in production, use a [VPN](https://docs.zerops.io/references/vpn) through [zcli](https://docs.zerops.io/references/cli). Once connected, Adminer will be available at `http://adminer.zerops` (or whatever hostname you set).
+- To access Adminer in production, use a [VPN](https://docs.zerops.io/references/vpn) through [zcli](https://docs.zerops.io/references/cli). Once connected, Adminer will be available at `http://adminer` (or whatever hostname you set).
 
 ---
 
