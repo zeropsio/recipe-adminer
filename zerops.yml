@@ -2,7 +2,7 @@ zerops:
   - setup: adminer
     build:
       base: php@8.4
-      deployFiles: [.]
+      deployFiles: index.php
     run:
       base: php-apache@8.4
       documentRoot: ""
